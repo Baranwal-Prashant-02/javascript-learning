@@ -23,7 +23,7 @@ number => range 2 to power 53 or 52
 bigint => An integer with arbitrary precision. For example: 9007199254740992n
 string => "any character " we can also use '' but not a good practice
 boolean => true/false
-null=> standalone
+null=> standalone value
 undefined => it is also an type in js
 symbol => to find the uniqeness or A data type whose instances are unique and immutable.    
 */
@@ -33,7 +33,7 @@ symbol => to find the uniqeness or A data type whose instances are unique and im
 // object
 console.log(typeof name);
 
-console.log(typeof undefined) 
+console.log(typeof undefined) // undefiined because it has no assigned value
 console.log(typeof null) // null is an object in js
 
 
@@ -44,4 +44,5 @@ hitesh
 string
 undefined
 object
+
  */
