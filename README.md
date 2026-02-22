@@ -1,2 +1,28 @@
 # javascript-learning
-A complete notes(codes with explaination)  of javascript.
+
+📘 JavaScript Notes – Detailed & Commented
+-> This repository contains my detailed, well-commented JavaScript notes prepared while learning from a YouTube lecture.
+-> The goal of these notes is to deeply understand JavaScript fundamentals, internal behavior, and commonly asked interview concepts.
+
+
+All topics are explained in simple language with examples and comments, making it useful for:
+- Beginners learning JavaScript
+- Revision before interviews
+- Understanding core JS concepts clearly
+
+
+🎥 Source of Learning
+These notes are based on the following YouTube lecture:
+🔗 YouTube Video:
+https://youtu.be/sscX432bMZo?si=VYPR9Of1bka7s02A
+
+Full credit goes to the original creator.
+This repository is created only for learning, practice, and revision purposes.
+
+
+📌 What You’ll Find in This Repository
+✔ JavaScript fundamentals explained in detail
+✔ Code written with step-by-step comments
+✔ Clear explanation of why things work the way they do
+✔ Common mistakes & misconceptions
+✔ Interview-oriented explanations
