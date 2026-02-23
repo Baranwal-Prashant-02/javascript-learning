@@ -13,9 +13,8 @@ All topics are explained in simple language with examples and comments, making i
 
 🎥 Source of Learning
 These notes are based on the following YouTube lecture:
-🔗 YouTube Video:
-https://youtu.be/sscX432bMZo?si=VYPR9Of1bka7s02A
-
+🔗 YouTube Video: 
+[JavaScript Full Course Playlist](https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37)
 Full credit goes to the original creator.
 This repository is created only for learning, practice, and revision purposes.
 
@@ -26,3 +25,8 @@ This repository is created only for learning, practice, and revision purposes.
 ✔ Clear explanation of why things work the way they do
 ✔ Common mistakes & misconceptions
 ✔ Interview-oriented explanations
+
+
+⚠ Disclaimer
+These notes are not a replacement for the original lecture.
+This repository is non-commercial and made purely for educational purposes.
