@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: black; color: white; font-size: large;">
+    
+</body>
+
+<!--creating an new html element using DOM, named div having class name main and id with random values-->
+<script>
+   const div= document.createElement('div')
+   console.log(div);  //shows :   <div></div>
+   div.className = "main"    
+   div.id = Math.round(Math.random()*10 +1)
+   // for output of lines(15,16,17) goto image named 'three_create_new_element' 
+
+   //for random attributes 
+   div.setAttribute("title", "titleName")
+   div.style.backgroundColor = "green"
+   div.style.padding = "10px"
+
+   // div.innerText = "hiii this is the inner text of div element" //this will over write the existing innertext of that element. so it is less preferred
+   const addElement = document.createTextNode("chai aur code ");  //this line create an new node in nodelist of element 'div' not replace the existing text
+   div.appendChild(addElement)  // here we simply append the new text node in our element 'div'
+
+   // attach all these in our document to make visible 
+   document.body.appendChild(div) // after this div element text with style got visible on main document
+</script>
+</html>

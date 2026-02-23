@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom | chai aur code</title>
+</head>
+<body style="background-color: black; color: white; font-size: large;">
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thrusday</div>
+    </div>
+    
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent) //it gives all the days
+    // console.log(parent.children) // gives the htmlcollection of all the days
+    // console.log(parent.children[1].innerHTML) //it gives the innerHTML of individual(1) htmlcollection
+    for (let i = 0; i < parent.children.length; i++) {  // here we apply normal for loop on htmlcollection b/c normal for loop is used due to htmlcollection shows some property like array
+        console.log(parent.children[i].innerHTML)    //for output check screenshot named 'dom_two_forLoop_1' in dom folder
+    }
+
+    parent.children[1].style.color = "orange"  //tuesday ka color orange hogya
+    parent.children[2].style.color = "red"  //wednesday ka color red 
+
+    console.log(parent.firstElementChild);  //check image 'parent.first_last_element_child'
+    console.log(parent.lastElementChild);  //   go to same image 'parent.first_last_element_child'
+
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne);   //it shows monday
+    console.log(dayOne.parentElement); //it shows monday's parent class //visit image named 'monday's parent class'
+
+    console.log(dayOne.nextElementSibling)  //it shows monday next which is tuesday visit image 'monday ka next element'
+
+    //nodelist :- childNodes
+    console.log("NODES: ", parent.childNodes); // it gives nodelist of all child of parent class, showing 9 elements because
+                                               // each enter(used for next line) is also considered as a node in nodelist.  we may check by open this file in chrome console 
+
+                                               
+</script>
+</html>
